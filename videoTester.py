@@ -11,7 +11,7 @@ face_recognizer.read('trainingData.yml')#Load saved training data
 name = {0 : "Priyanka",1 : "Kangana"}
 
 
-cap=cv2.VideoCapture(0)
+cap=cv2.VideoCapture("Kangana Ranaut ने ऐसा बोल दिया कि हो गईं ट्रोल जमकर बरसे यूजर्स.mp4")
 
 while True:
     ret,test_img=cap.read()# captures frame and returns boolean value and captured image
